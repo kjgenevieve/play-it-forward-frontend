@@ -1,11 +1,15 @@
-import React, { Component } from "react";
-export default class LogIn extends Component {
-  
-  render() {
-    return (
-      <div>
-        <h1>Log In</h1>
-      </div>
-    );
-  }
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom';
+
+
+function LogIn() {
+   return (
+   <div>
+     <button class="btn-info"><Link id="link" to="/signUp">SignUp</Link></button>
+   </div>
+ );
 }
+
+export default LogIn;
+
