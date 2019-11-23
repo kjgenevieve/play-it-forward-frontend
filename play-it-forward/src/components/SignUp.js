@@ -1,11 +1,12 @@
-import React, { Component } from "react";
-export default class SignUp extends Component {
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Link} from 'react-router-dom';
+
+
+function SignUp() {
   
-  render() {
-    return (
-      <div>
-        <h1>Sign Up</h1>
-      </div>
-    );
-  }
+   return <p>SignUp TEST</p>;
 }
+
+export default SignUp;
+
