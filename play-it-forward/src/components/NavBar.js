@@ -40,9 +40,9 @@ function Navbar() {
               About US
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={nav}>
-              <a class="dropdown-item" href="#">Our Mission</a>
-              <a class="dropdown-item" href="#">Staff</a>
-              <a class="dropdown-item" href="#">News</a>
+              <Link class="dropdown-item" id="link" to="/about">Our Mission</Link>
+              <Link class="dropdown-item" id="link" to="/about">Staff</Link>
+              <Link class="dropdown-item" id="link" to="/about">News</Link>
             </div>
           </li>
         </ul>

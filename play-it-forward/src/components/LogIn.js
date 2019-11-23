@@ -4,7 +4,11 @@ import {Link} from 'react-router-dom';
 
 
 function LogIn() {
-   return <p>Login TEST</p>;
+   return (
+   <div>
+     <button class="btn-info"><Link id="link" to="/signUp">SignUp</Link></button>
+   </div>
+ );
 }
 
 export default LogIn;
