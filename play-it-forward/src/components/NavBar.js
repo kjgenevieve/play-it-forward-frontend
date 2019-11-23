@@ -41,8 +41,8 @@ function Navbar() {
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style={nav}>
               <Link class="dropdown-item" id="link" to="/about">Our Mission</Link>
-              <Link class="dropdown-item" id="link" to="/about">Staff</Link>
               <Link class="dropdown-item" id="link" to="/about">News</Link>
+              <Link class="dropdown-item" id="link" to="/contact">Contact Us</Link>
             </div>
           </li>
         </ul>
