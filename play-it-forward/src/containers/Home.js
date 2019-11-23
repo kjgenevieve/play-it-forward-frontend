@@ -31,7 +31,7 @@ export default class Home extends Component {
       this.setState({
         allEvents: data[0],
         allNonProfits: data[1]
-      }, () => console.log(this.state))
+      })
     })
   }
 
@@ -40,8 +40,10 @@ export default class Home extends Component {
       <div>
         <Mission />
         <Search />
-        <CardDisplay />
-        <CardDisplay />
+        <h2>Events</h2>
+        <CardDisplay events={this.state.allEvents}/>
+        <h2>Non-Profits</h2>
+        <CardDisplay nonProfits={this.state.allNonProfits}/>
       </div>
     );
   }
