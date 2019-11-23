@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
         <Router>
-          {/* <NavBar /> */}
+          <NavBar />
           <Main />
-          {/* <Footer /> */}
+          <Footer />
         </Router>
     </div>
   );
