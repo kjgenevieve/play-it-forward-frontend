@@ -17,7 +17,6 @@ class LogIn extends Component {
                         margin-top: 120px;
                         max-width: 600px;
                         height: 320px;
-                        border: 1px solid grey;
                         background-color: #EAEAEA;
                     }
                     #login .container #login-row #login-column #login-box #login-form {
@@ -60,7 +59,7 @@ class LogIn extends Component {
                       <input type="submit" name="submit" className="btn btn-info btn-md" value="submit"/>
                      </div>
                      <div id="register-link" className="text-right">
-                       <a href="#" className="text-info">Register here</a>
+                       <a href="signUp" className="text-info">Register here</a>
                      </div>
                     </form>
                   </div>
